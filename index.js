@@ -9,3 +9,10 @@ for (let i = 0; i < 3; i++) {
 }
 
 element.append(ul);
+
+main.remove();
+
+const newHeader = document.createElement("h1");
+document.body.append(newHeader);
+newHeader.id = 'Victory'
+newHeader.textContent = 'Tweezy is the champion';
